@@ -1,0 +1,23 @@
+# Puzzle inputs are personal and Advent of Code asks that you do not publish them.
+**/input.txt
+
+# Secrets (session cookie for input downloads).
+.env
+
+# Build output.
+bin/
+*.exe
+*.test
+*.out
+*.prof
+
+# Go tooling.
+coverage.html
+vendor/
+
+# Editors and OS files.
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
