@@ -81,5 +81,6 @@ Import what you need from `aoc/lib/...`. Every function has a doc comment.
 | `search` | `BFS`, `Flood`, `Dijkstra`, `DijkstraAll`, `BinarySearch` |
 | `slicesx` | `Sum`, `Product`, `Map`, `Filter`, `Count`, `Counts`, `MinMax`, `Chunk`, `Windows`, `Pairs`, `Transpose`, `Permutations`, `Combinations` |
 | `strx` | `Reverse`, `IsDigit`, `IsLetter`, `Chunk`, `Between`, `Hamming` |
+| `intcode` | The 2019 Intcode computer: `Parse`, `New`, and a `Machine` that runs until it needs input or halts |
 
 Run `make test` to test the library. Run `make check` to format, vet and test everything.
